@@ -134,25 +134,25 @@ escuchar correctamente y con buen volumen su voz.
 
 ## Evaluación
 
-# Principios teóricos y corrección de bugs
+### Principios teóricos y corrección de bugs
 La evaluación se realizará sobre Github, pudiendo el profesor hacer comentarios en el repositorio y solicitar cambios o 
 mejoras cuando lo encuentre oportuno, especialmente debido al uso incorrecto de herramientas de concurrencia.
 
-# Casos de prueba
+### Casos de prueba
 Se someterá a la aplicación a diferentes casos de prueba que validen la correcta aplicación de las 
 herramientas de concurrencia, por ejemplo, la ausencia de deadlocks.
 
 Además la aplicación deberá respetar los formatos de salida y valores esperados de los resultados, y deberá mostrar 
 algún incremento en performance cuando la ejecución de la misma se hace con varios hilos en un ambiente multiprocesador.
 
-# Organización del código
+### Organización del código
 El código debe organizarse respetando los criterios de buen diseño y en particular aprovechando las herramientas 
 recomendadas por Rust. Se prohibe el uso de bloques `unsafe`.
 
-# Tests automatizados
+### Tests automatizados
 La presencia de tests automatizados que prueben diferentes casos, 
 en especial sobre el uso de las herramientas de concurrencia es un plus.
 
-# Presentación en término
+### Presentación en término
 El trabajo deberá entregarse para la fecha estipulada. 
 La presentación fuera de término sin coordinación con antelación con el profesor influye negativamente en la nota final.
